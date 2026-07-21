@@ -16,5 +16,5 @@ public class Mover : MonoBehaviour
         Vector3 normalizedInput = input.normalized;
         ProcessMoveTo(normalizedInput);
     }
-    private void ProcessMoveTo(Vector3 direction) => _characterController.Move(direction * _moveSpeed * Time.deltaTime);
+    public void ProcessMoveTo(Vector3 direction) => _characterController.Move(direction * _moveSpeed * Time.deltaTime);
 }

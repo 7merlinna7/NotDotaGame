@@ -141,7 +141,7 @@ ModelImporter:
     - boneName: spine_01.x
       humanName: Spine
       limit:
-        min: {x: 0, y: 0, z: 0}
+        min: {x: 0, y: 0, z: -97.651825}
         max: {x: 0, y: 0, z: 17.037048}
         value: {x: 0, y: 0, z: 0}
         length: 0
@@ -149,7 +149,7 @@ ModelImporter:
     - boneName: spine_02.x
       humanName: Chest
       limit:
-        min: {x: -2.434784, y: 0, z: 0}
+        min: {x: -2.434784, y: 0, z: -82.91545}
         max: {x: 0, y: 0, z: 40}
         value: {x: 0, y: 0, z: 0}
         length: 0
@@ -157,7 +157,7 @@ ModelImporter:
     - boneName: neck.x
       humanName: Neck
       limit:
-        min: {x: 0, y: 0, z: -42.22223}
+        min: {x: 0, y: 0, z: -53.767418}
         max: {x: 0, y: 0, z: 25.185188}
         value: {x: 0, y: 0, z: 0}
         length: 0
@@ -165,7 +165,7 @@ ModelImporter:
     - boneName: head.x
       humanName: Head
       limit:
-        min: {x: -2.434784, y: 0, z: -40}
+        min: {x: -2.434784, y: 0, z: -54.69388}
         max: {x: 0, y: 0, z: 40}
         value: {x: 0, y: 0, z: 0}
         length: 0
@@ -181,8 +181,8 @@ ModelImporter:
     - boneName: shoulder.r
       humanName: RightShoulder
       limit:
-        min: {x: 0, y: 0, z: -15}
-        max: {x: 0, y: 15, z: 30}
+        min: {x: 0, y: -30.437317, z: -9.446064}
+        max: {x: 0, y: 26.545189, z: 60.87463}
         value: {x: 0, y: 0, z: 0}
         length: 0
         modified: 1
@@ -353,7 +353,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: thumb2.r
       humanName: Right Thumb Intermediate
       limit:
@@ -361,7 +361,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: thumb3.r
       humanName: Right Thumb Distal
       limit:
@@ -369,7 +369,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: index1_base.r
       humanName: Right Index Proximal
       limit:
@@ -377,7 +377,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: index1.r
       humanName: Right Index Intermediate
       limit:
@@ -385,7 +385,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: index2.r
       humanName: Right Index Distal
       limit:
@@ -393,7 +393,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: middle1_base.r
       humanName: Right Middle Proximal
       limit:
@@ -401,7 +401,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: middle1.r
       humanName: Right Middle Intermediate
       limit:
@@ -409,7 +409,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: middle2.r
       humanName: Right Middle Distal
       limit:
@@ -417,7 +417,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: ring1_base.r
       humanName: Right Ring Proximal
       limit:
@@ -425,7 +425,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: ring1.r
       humanName: Right Ring Intermediate
       limit:
@@ -433,7 +433,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: ring2.r
       humanName: Right Ring Distal
       limit:
@@ -441,7 +441,7 @@ ModelImporter:
         max: {x: 0, y: 0, z: 0}
         value: {x: 0, y: 0, z: 0}
         length: 0
-        modified: 0
+        modified: 1
     - boneName: spine_03.x
       humanName: UpperChest
       limit:
