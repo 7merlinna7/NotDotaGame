@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4407006840216449103}
   - component: {fileID: 5607126178642477224}
   - component: {fileID: 4845566173210196962}
-  - component: {fileID: 9111175831825033568}
   - component: {fileID: 4192935756048104190}
   m_Layer: 0
   m_Name: GiftBoxView
@@ -32,8 +31,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children:
-  - {fileID: 495045716282077926}
+  m_Children: []
   m_Father: {fileID: 5556143639021762820}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5607126178642477224
@@ -86,20 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &9111175831825033568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882151855984152631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2f741bacbdad6a4586d39ffdb9cd6dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _animator: {fileID: 4192935756048104190}
-  _giftBox: {fileID: 7743704441979903477}
 --- !u!95 &4192935756048104190
 Animator:
   serializedVersion: 5
@@ -121,37 +105,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!1 &3518019111836862220
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 495045716282077926}
-  m_Layer: 0
-  m_Name: TakingPosition
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &495045716282077926
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3518019111836862220}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6, y: 0, z: 0}
-  m_LocalScale: {x: 0.38167942, y: 0.38167942, z: 0.38167942}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4407006840216449103}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7365406218639628474
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,8 +114,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5556143639021762820}
-  - component: {fileID: 7743704441979903477}
   - component: {fileID: 7766294311578781666}
+  - component: {fileID: 3186771023307909094}
   m_Layer: 0
   m_Name: GiftBox
   m_TagString: Untagged
@@ -186,19 +139,6 @@ Transform:
   - {fileID: 4407006840216449103}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7743704441979903477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7365406218639628474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbb2d56591b931b44968e513b2a2bfee, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _takingPositionPoint: {fileID: 495045716282077926}
 --- !u!65 &7766294311578781666
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -220,3 +160,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4445386, y: 0.37608644, z: 0.45002446}
   m_Center: {x: -0.001256393, y: 0.17695613, z: 0.019987775}
+--- !u!114 &3186771023307909094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7365406218639628474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a9a93961dbf7249a61d658ba7b1f85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

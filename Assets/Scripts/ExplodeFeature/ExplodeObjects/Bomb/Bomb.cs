@@ -10,6 +10,7 @@ public class Bomb : MonoBehaviour
 
     private SphereCollider _bombCollider;
     private Vector3 _explodePosition = Vector3.zero;
+    private float _explodeAnimationTime =1f;
 
     public bool IsActive {  get; private set; }
     public bool IsExplode {  get; private set; }
@@ -51,7 +52,7 @@ public class Bomb : MonoBehaviour
 
     private IEnumerator Explode()
     {
-        yield return new WaitForSeconds(_timeToExplode);
+        yield return new WaitForSeconds(_timeToExplode - _explodeAnimationTime);
         IsExplode = true;
     }
 

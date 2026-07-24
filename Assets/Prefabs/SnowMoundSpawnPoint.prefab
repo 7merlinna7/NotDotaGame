@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b344f7715cf47440be74c074c94fc14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _giftBoxPrefub: {fileID: 7743704441979903477, guid: f7371170172c55547955f9f2c708bf7e,
+  _giftBoxPrefub: {fileID: 3186771023307909094, guid: f7371170172c55547955f9f2c708bf7e,
     type: 3}
   _bombPrefab: {fileID: 6573703226808738599, guid: 51421f0efa82b7d4d8a030308bde865d,
     type: 3}
