@@ -728,7 +728,7 @@ PrefabInstance:
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.09
+      value: 8.98
       objectReference: {fileID: 0}
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
@@ -738,7 +738,7 @@ PrefabInstance:
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.71
+      value: 2.08
       objectReference: {fileID: 0}
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
@@ -980,7 +980,7 @@ PrefabInstance:
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 28.94
+      value: 24.89
       objectReference: {fileID: 0}
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
@@ -990,7 +990,7 @@ PrefabInstance:
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -14.44
+      value: -10.18
       objectReference: {fileID: 0}
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
@@ -1148,6 +1148,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149705980}
   m_Mesh: {fileID: -1280581979351146575, guid: a671d7e6a2eb9354ba9fa286e5f0ca13, type: 3}
+--- !u!4 &156911028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+    type: 3}
+  m_PrefabInstance: {fileID: 1695508694}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &177996522
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,7 +2110,7 @@ GameObject:
   - component: {fileID: 322202435}
   - component: {fileID: 322202434}
   - component: {fileID: 322202433}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeStump_Snow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3117,6 +3123,79 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426545056}
   m_Mesh: {fileID: 169462590094941377, guid: b431af17c64784c4088cf93eda1ec5dc, type: 3}
+--- !u!1001 &427898359
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 32.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -24.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298945233209519902, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: m_Name
+      value: Bomb (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573703226808738599, guid: 51421f0efa82b7d4d8a030308bde865d,
+        type: 3}
+      propertyPath: _isLandBomb
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 51421f0efa82b7d4d8a030308bde865d, type: 3}
 --- !u!1 &432778951
 GameObject:
   m_ObjectHideFlags: 0
@@ -5434,7 +5513,7 @@ GameObject:
   - component: {fileID: 735618410}
   - component: {fileID: 735618409}
   - component: {fileID: 735618408}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: icicle_joined (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6079,8 +6158,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 132a66fd2c24901429c7b304a4fd638f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _woundedMoveSpeed: 5
   _rotationSpeed: 800
   _maxHealth: 100
+  _walkingLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  _movingFlagPrefab: {fileID: 5291275307717659108, guid: 5a8d99fb95262ea458a7b580f2a1611c,
+    type: 3}
+  _smashingLayerMask:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!195 &812560452
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6095,7 +6183,7 @@ NavMeshAgent:
   m_Acceleration: 999
   avoidancePriority: 50
   m_AngularSpeed: 0
-  m_StoppingDistance: 0
+  m_StoppingDistance: 0.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -6176,7 +6264,7 @@ GameObject:
   - component: {fileID: 818815329}
   - component: {fileID: 818815328}
   - component: {fileID: 818815327}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeStump_Snow (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6664,7 +6752,7 @@ GameObject:
   - component: {fileID: 888269428}
   - component: {fileID: 888269427}
   - component: {fileID: 888269426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: lamp_post_snow (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7566,6 +7654,35 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941830784}
   m_Mesh: {fileID: 8994016611515195364, guid: 81b14fec9b9a18f4986e46628a786071, type: 3}
+--- !u!1 &942907620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8773184688824279198, guid: acdb90624a404aa438447006f1026065,
+    type: 3}
+  m_PrefabInstance: {fileID: 1695508694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &942907622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942907620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &954244120
 GameObject:
   m_ObjectHideFlags: 0
@@ -8001,7 +8118,7 @@ GameObject:
   - component: {fileID: 989928748}
   - component: {fileID: 989928750}
   - component: {fileID: 989928749}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9696,7 +9813,7 @@ GameObject:
   - component: {fileID: 1199933556}
   - component: {fileID: 1199933555}
   - component: {fileID: 1199933554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: lamp_post_snow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10301,7 +10418,7 @@ PrefabInstance:
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.83
+      value: 12.26
       objectReference: {fileID: 0}
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
@@ -10311,7 +10428,7 @@ PrefabInstance:
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.38
+      value: 5.73
       objectReference: {fileID: 0}
     - target: {fileID: 7565370344883907715, guid: 020048c99bbe93845aca8bc2a6b35c76,
         type: 3}
@@ -10467,15 +10584,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2332842382058402348}
     m_Modifications:
+    - target: {fileID: 3199283261846579216, guid: 043176b6a68be2b43b073aaaa4782c7d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4893118513826488101, guid: 043176b6a68be2b43b073aaaa4782c7d,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4893118513826488103, guid: 043176b6a68be2b43b073aaaa4782c7d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6294508012652817957, guid: 043176b6a68be2b43b073aaaa4782c7d,
         type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294508012652817959, guid: 043176b6a68be2b43b073aaaa4782c7d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6294508013172393185, guid: 043176b6a68be2b43b073aaaa4782c7d,
         type: 3}
@@ -10556,6 +10688,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CampFireParticle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294508013172393196, guid: 043176b6a68be2b43b073aaaa4782c7d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7539286505454239565, guid: 043176b6a68be2b43b073aaaa4782c7d,
         type: 3}
@@ -10691,7 +10828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1335398336}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SnowmanHouse
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11257,7 +11394,7 @@ PrefabInstance:
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.351011
+      value: 31.63
       objectReference: {fileID: 0}
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
@@ -11267,7 +11404,7 @@ PrefabInstance:
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31.797346
+      value: -8.36
       objectReference: {fileID: 0}
     - target: {fileID: 1233233003571244252, guid: 51421f0efa82b7d4d8a030308bde865d,
         type: 3}
@@ -12029,7 +12166,7 @@ GameObject:
   - component: {fileID: 1508122853}
   - component: {fileID: 1508122855}
   - component: {fileID: 1508122854}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13083,7 +13220,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1627146802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeStump
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13203,7 +13340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1640416603}
   - component: {fileID: 1640416604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Enviroment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13297,6 +13434,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5342370158677574957}
+  - {fileID: 156911028}
   m_Father: {fileID: 940280726}
   m_LocalEulerAnglesHint: {x: 0, y: -499.05, z: 0}
 --- !u!64 &1646230420
@@ -13477,6 +13615,133 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687016356}
   m_Mesh: {fileID: -1280581979351146575, guid: a671d7e6a2eb9354ba9fa286e5f0ca13, type: 3}
+--- !u!1001 &1695508694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1646230419}
+    m_Modifications:
+    - target: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Name
+      value: CFXR3 LightGlow A (Loop)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2368213
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2333337
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2292514
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.03388381
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 8.206658
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06280314
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9368248
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.34979916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2275721571885089005, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3319026295740190429, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6890765397544793498, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710086954383210093, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710086954383210093, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7710086954383210093, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773184688824279198, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986935675043883179, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8773184688824279198, guid: acdb90624a404aa438447006f1026065,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 942907622}
+  m_SourcePrefab: {fileID: 100100000, guid: acdb90624a404aa438447006f1026065, type: 3}
 --- !u!1001 &1696419546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13815,7 +14080,7 @@ GameObject:
   - component: {fileID: 1730415593}
   - component: {fileID: 1730415592}
   - component: {fileID: 1730415591}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14448,7 +14713,7 @@ GameObject:
   - component: {fileID: 1881786411}
   - component: {fileID: 1881786410}
   - component: {fileID: 1881786409}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp_Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14956,7 +15221,7 @@ GameObject:
   - component: {fileID: 1955796052}
   - component: {fileID: 1955796051}
   - component: {fileID: 1955796050}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeStump_Snow (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15274,7 +15539,7 @@ GameObject:
   - component: {fileID: 2030409679}
   - component: {fileID: 2030409678}
   - component: {fileID: 2030409677}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeStump_Snow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16759,7 +17024,7 @@ GameObject:
   - component: {fileID: 3459939052818929252}
   - component: {fileID: 1720616354317787822}
   - component: {fileID: 2529125182300442518}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: wreath
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17692,7 +17957,7 @@ GameObject:
   - component: {fileID: 3286391988337067864}
   - component: {fileID: 756441254225884050}
   - component: {fileID: 1435027865025134982}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Lamp_Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18607,7 +18872,7 @@ GameObject:
   - component: {fileID: 2329188797997418614}
   - component: {fileID: 555639948836109500}
   - component: {fileID: 7028301216499676170}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wood_Bench_A_Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18706,7 +18971,7 @@ GameObject:
   - component: {fileID: 2478513085477065983}
   - component: {fileID: 396745358053761077}
   - component: {fileID: 3035088731437193996}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wood_Bench_B (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19860,7 +20125,7 @@ GameObject:
   - component: {fileID: 1724931829474934153}
   - component: {fileID: 3464612910516324675}
   - component: {fileID: 8751137612566445332}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CampFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19969,7 +20234,7 @@ GameObject:
   - component: {fileID: 1253571580423369894}
   - component: {fileID: 3927530284122636396}
   - component: {fileID: 7584080564288547258}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Christmas_Light_Rope_Straight_Short
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20295,7 +20560,7 @@ GameObject:
   - component: {fileID: 307355993274273252}
   - component: {fileID: 2569028625028593966}
   - component: {fileID: 1669860850992689018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeStump_Snow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20330,7 +20595,7 @@ GameObject:
   - component: {fileID: 449701979830834630}
   - component: {fileID: 2439084957160415500}
   - component: {fileID: 1028533803389622837}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wood_Bench_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20364,7 +20629,7 @@ GameObject:
   - component: {fileID: 513862937524106489}
   - component: {fileID: 2361413252787470387}
   - component: {fileID: 9152473589522950629}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Christmas_Light_Rope_Straight_Short (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20604,7 +20869,7 @@ GameObject:
   - component: {fileID: 9046661620021906056}
   - component: {fileID: 6514674040349670978}
   - component: {fileID: 5951571109321443247}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Star
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21354,7 +21619,7 @@ GameObject:
   - component: {fileID: 7882415933420694457}
   - component: {fileID: 5370261968537755507}
   - component: {fileID: 8764834096313697075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: icicle_joined
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22479,7 +22744,7 @@ GameObject:
   - component: {fileID: 6196451801716940077}
   - component: {fileID: 8222112066836244967}
   - component: {fileID: 6349860710539954933}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: cabin_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23778,7 +24043,7 @@ GameObject:
   - component: {fileID: 5051374772330500644}
   - component: {fileID: 7061329611479705326}
   - component: {fileID: 1443174374462574705}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: cabin_Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24005,3 +24270,4 @@ SceneRoots:
   - {fileID: 145311788}
   - {fileID: 1696419546}
   - {fileID: 1390639616}
+  - {fileID: 427898359}

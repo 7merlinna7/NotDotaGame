@@ -91,9 +91,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8930815683062640752}
-  - component: {fileID: 4464129436365825135}
   - component: {fileID: 6038551381970501129}
-  m_Layer: 3
+  - component: {fileID: 4350102054956654404}
+  m_Layer: 7
   m_Name: SnowMound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,8 +116,21 @@ Transform:
   - {fileID: 8239192512743079830}
   m_Father: {fileID: 7565370344883907715}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &4464129436365825135
-MeshCollider:
+--- !u!114 &6038551381970501129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586006571276582286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d234ab5db661c46ad74664c8d2ca0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectSpawnPoint: {fileID: 8883831106136076997}
+--- !u!135 &4350102054956654404
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -134,23 +147,9 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6588116048731046207, guid: dafcf27c445551940be55a72b0e32d70, type: 3}
---- !u!114 &6038551381970501129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6586006571276582286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16d234ab5db661c46ad74664c8d2ca0a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _objectSpawnPoint: {fileID: 8883831106136076997}
+  serializedVersion: 3
+  m_Radius: 1.34
+  m_Center: {x: 0, y: -7.15, z: 0}
 --- !u!1 &8930956521386795677
 GameObject:
   m_ObjectHideFlags: 0
