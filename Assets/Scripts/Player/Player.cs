@@ -67,7 +67,8 @@ public class Player : MonoBehaviour,IDamabeble
     {
         Quaternion flagRotation = Quaternion.Euler (-90,0,0);
         _movingFlag = Instantiate(_movingFlagPrefab.gameObject,movePosition,flagRotation);
-        IsMoving = true;
+        if (HavePath(movePosition))
+            IsMoving = true;
     }
 
     public void TakeDamage(int damage)
@@ -103,5 +104,20 @@ public class Player : MonoBehaviour,IDamabeble
 
         _agent.SetDestination(target);
         _rotator.Update(target - transform.position);
+    }
+
+    private bool HavePath(Vector3 targetPosition)
+    {
+        NavMeshPath _path= new NavMeshPath();
+        NavMeshQueryFilter queryFilter = new NavMeshQueryFilter();
+        queryFilter.agentTypeID = 0;
+        queryFilter.areaMask = NavMesh.AllAreas;
+
+        NavMesh.CalculatePath(transform.position, targetPosition, queryFilter, _path);
+
+        if (_path.status != NavMeshPathStatus.PathInvalid)
+            return true;
+
+        return false;
     }
 }
